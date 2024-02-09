@@ -54,7 +54,7 @@ export const MyAccount = () => {
             <CurrentUserAds />
           </div>
         )}
-      </div>
+      </div>  
     </div>
   );
 };
