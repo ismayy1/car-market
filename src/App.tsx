@@ -11,7 +11,7 @@ const Home = lazy(() => import('./pages/HomePage/Index.tsx').then(module => ({ d
 const Login = lazy(() => import('./pages/LoginPage/Login.tsx').then(module => ({ default: module.Login })));
 const Buy = lazy(() => import('./pages/BuyPage/Buy.tsx').then(module => ({ default: module.Buy })));
 const SellOrEditPage = lazy(() => import('./pages/SellPage/Sell.tsx').then(module => ({ default: module.SellOrEditPage })));
-const MyAccount = lazy(() => import('./pages/MyAccountPage/MyAccout.tsx').then(module => ({ default: module.MyAccount })));
+const MyAccount = lazy(() => import('./pages/MyAccountPage/MyAccount.tsx').then(module => ({ default: module.MyAccount })));
 const Edit = lazy(() => import('./pages/EditAdPage/Edit.tsx').then(module => ({ default: module.Edit })));
 const CarAd = lazy(() => import('./pages/CarAdPage/CarAd.tsx').then(module => ({ default: module.CarAd })));
 const User = lazy(() => import('./pages/UserProfilePage/User.tsx').then(module => ({ default: module.User })));
