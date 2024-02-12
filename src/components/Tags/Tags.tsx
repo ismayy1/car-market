@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { useEffect, useState } from "react";
-import tagSVG from "/src/assets/tag.svg";
-import enter_svg from "/src/assets/enter.svg";
+import tagSVG from "../../assets/tag.jpg";
+import enter_svg from "../../assets/enter.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export interface TagsProps {
   onTagsChange: (tags: string[]) => void;
-  selectedTags: string[];
+  selectedTags: string[]; 
 }
 
 export const Tags = ({ onTagsChange, selectedTags }: TagsProps) => {

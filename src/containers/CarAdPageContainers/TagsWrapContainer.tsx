@@ -1,4 +1,4 @@
-import tagsIcon from "/src/assets/tag.svg";
+import tagsIcon from "../../assets/tag.jpg";
 
 type TagsWrapContainerProps = {
   carDoc: {
