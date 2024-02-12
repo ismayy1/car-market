@@ -21,8 +21,7 @@
     "types": [
       "@vitejs/plugin-react",
       "@rollup/plugin-replace",
-      "vite",
-      "vite-plugin-react"
+      "vite"
     ],
     "allowJs": true,
     "esModuleInterop": true,
