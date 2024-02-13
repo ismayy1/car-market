@@ -146,7 +146,7 @@ const ContinueButton = ({
       { key: "DoorNumber", validate: (value : number) => isValueEmpty(value) || value <= 0, message: "Please select a door number" },
       { key: "driveTrain", validate: isValueEmpty, message: "Please select a drive train" },
       { key: "version", validate: isValueEmpty, message: "Please enter a valid version" },
-      { key: "generation", validate: (value : string) => value == "" || isValueEmpty(value) , message: "Please enter a valid generation" },
+      { key: "generation", validate: (value : string) => value === "" || isValueEmpty(value) , message: "Please enter a valid generation" },
       { key: "transmission", validate: isValueEmpty, message: "Please select a transmission" },
       { key: "EmmisionStandard", validate: isValueEmpty, message: "Please select an emission standard" },
       { key: "c02Emission", validate: (value : number) => isValueEmpty(value) || value <= 0, message: "Please enter a valid CO2 emission" },
