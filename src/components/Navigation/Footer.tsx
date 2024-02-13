@@ -8,11 +8,11 @@ export const Footer = () => {
         <div>
           <h2>Online Marketplace</h2>
           <p>
-            Car marketplace is a platform that has grown a lot in recent years
+            Car market is a platform that has grown a lot in recent years
             <br className="responsive" />
             with new users and dealers joining every day. 60% of dealers{" "}
             <br className="responsive" />
-            use CarMarketplace to sell their cars.
+            use CarMarket to sell their cars.
           </p>
           <hr />
         </div>
@@ -30,7 +30,7 @@ export const Footer = () => {
         <div>
           <h3>Company</h3>
           <ul>
-            <li> Marketplace</li>
+            <li> Car-Market</li>
             <li> Privacy Policy</li>
             <li> Conditions</li>
             <li> Cookies Policy</li>

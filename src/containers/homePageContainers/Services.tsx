@@ -21,11 +21,9 @@ const Services = () => {
         <div className="heading">
           <h2>What we actually do</h2>
           <p>
-            As a consumer-to-consumer marketplace website, our platform provides
-            a space for individuals to buy and sell goods and services directly
-            to each other. Our website offers a user-friendly interface for
-            listing and browsing items, as well as tools for communication
-            between buyers and sellers.
+          As a peer-to-peer commerce hub, our platform enables individuals to engage in direct exchanges of cars and services. 
+          Offering an easy-to-navigate interface for item listing and exploration, 
+          our website also provides communication tools to facilitate seamless interactions between buyers and sellers.
           </p>
         </div>
         <div className="servicesCards cards">

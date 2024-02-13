@@ -22,9 +22,9 @@ export function CarSellerContainer({  handleInputChange,  carDefault,  errorMess
       {errorMessages.price && <div className="errorMessage">{errorMessages.price}</div>}
       <div className="form-container car-seller-info">
         <h3>Seller Info</h3>
-        <FormInputText label="Country" placeholder="ex: Germany" id="country" name="country" defaultValue={carDefault?.country} onChange={handleInputChange} maxLength={56} />
+        <FormInputText label="Country" placeholder="ex: Romania" id="country" name="country" defaultValue={carDefault?.country} onChange={handleInputChange} maxLength={56} />
         {errorMessages.country && <div className="errorMessage">{errorMessages.country}</div>}
-        <FormInputText label="City" placeholder="ex: Berlin" id="city" name="city" defaultValue={carDefault?.city} onChange={handleInputChange} maxLength={58} />
+        <FormInputText label="City" placeholder="ex: Bucharest" id="city" name="city" defaultValue={carDefault?.city} onChange={handleInputChange} maxLength={58} />
         {errorMessages.city && <div className="errorMessage">{errorMessages.city}</div>}
       </div>
     </div>

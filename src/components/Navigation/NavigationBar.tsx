@@ -61,7 +61,7 @@ const NavigationBar = () => {
           <FontAwesomeIcon icon={faBars} />
         </button>
         <Link to="/" className="brand">
-          Car Marketplace
+          Car-Market
         </Link>
         <div
           onClick={toggleMenu}
