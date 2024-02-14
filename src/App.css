@@ -53,7 +53,9 @@
   --black99: #00000099;
   --charcoal: #0e0d13;
   --red: #9d052b;
+  --blue: #7febf5;
   --light-red: #d90137;
+  --light-blue: #23d1e8;
   --gold: #ffb92d;
   --green: #04aa6d;
   scrollbar-color: var(--white) var(--charcoal) !important;
@@ -179,7 +181,7 @@ h2 {
 h2:not(.explore h2, .trial h2, footer h2)::before,
 .explore h2::before {
   content: "";
-  background: linear-gradient(90deg, var(--red)49%, var(--white) 50%, var(--light-red) 51%);
+  background: linear-gradient(90deg, var(--blue)49%, var(--white) 50%, var(--light-blue) 51%);
   position: absolute;
   left: 50%;
   transform: translate(-50%);

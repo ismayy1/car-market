@@ -11,8 +11,8 @@ const Services = () => {
     <div className="container">
       <img
         id="services"
-        width={1136}
-        height={299.35}
+        width={1436}
+        height={109.35}
         alt="Services section staring image"
         src={bottom}
         className="grid-img"
@@ -29,8 +29,7 @@ const Services = () => {
         <div className="servicesCards cards">
           <div onClick={() => navigate("/buy")} className="card">
             <div className="light"></div>
-
-            <img src={buyPng} alt="buying-icon" />
+            <img className="imgBuy" src={buyPng} alt="buying-icon" />
             <h3>Buy a new Car</h3>
           </div>
           <div className="card" onClick={() => navigate("/sell")}>
