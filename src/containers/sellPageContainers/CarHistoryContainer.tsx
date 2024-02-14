@@ -17,7 +17,7 @@ export const CarHistoryContainer = ({
   return (
     <div className="form-container car-history">
       <h3>History</h3>
-      <FormInputText label="Country of Origin" placeholder="ex: Romania, Bucharest" id="CountryOfOringin" name="countryOfOrigin" defaultValue={carDefault?.countryOfOrigin} onChange={handleInputChange} maxLength={56} />
+      <FormInputText label="Country of Origin" placeholder="ex: Romania" id="CountryOfOringin" name="countryOfOrigin" defaultValue={carDefault?.countryOfOrigin} onChange={handleInputChange} maxLength={56} />
       {errorMessages.countryOfOrigin && <div className="errorMessage">    {errorMessages.countryOfOrigin}  </div>}
     </div>
   )

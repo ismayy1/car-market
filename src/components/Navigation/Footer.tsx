@@ -6,7 +6,7 @@ export const Footer = () => {
     <div className="container">
       <footer>
         <div>
-          <h2>Online Marketplace</h2>
+          <h2>Online Car-Market</h2>
           <p>
             Car market is a platform that has grown a lot in recent years
             <br className="responsive" />
