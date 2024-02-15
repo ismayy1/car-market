@@ -27,10 +27,10 @@ import {
   
       const getCounts = async () => {
         const countsDocRef = doc(db, "system", "counts");
-        // const countsDoc = await getDoc(countsDocRef);
-        // const countsData = countsDoc.data();
-        // setCountCars(countsData?.countCars);
-        // setCountUsers(countsData?.countUsers);
+        const countsDoc = await getDoc(countsDocRef);
+        const countsData = countsDoc.data();
+        setCountCars(countsData?.countCars);
+        setCountUsers(countsData?.countUsers);
       };
   
       const getUsers = async () => {
