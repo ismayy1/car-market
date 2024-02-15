@@ -27,10 +27,10 @@ import {
   
       const getCounts = async () => {
         const countsDocRef = doc(db, "system", "counts");
-        const countsDoc = await getDoc(countsDocRef);
-        const countsData = countsDoc.data();
-        setCountCars(countsData?.countCars);
-        setCountUsers(countsData?.countUsers);
+        // const countsDoc = await getDoc(countsDocRef);
+        // const countsData = countsDoc.data();
+        // setCountCars(countsData?.countCars);
+        // setCountUsers(countsData?.countUsers);
       };
   
       const getUsers = async () => {
@@ -40,16 +40,16 @@ import {
           orderBy("createdAt", "desc"),
           limit(4)
         );
-        const querySnapshot = await getDocs(usersQuery);
-        const usersData = querySnapshot.docs.map((userDoc) => {
-          const userData = userDoc.data();
-          userData.userID = userDoc.id;
-          return userData;
-        });
-        setUsers(usersData);
+        // const querySnapshot = await getDocs(usersQuery);
+        // const usersData = querySnapshot.docs.map((userDoc) => {
+          // const userData = userDoc.data();
+          // userData.userID = userDoc.id;
+          // return userData;
+        // });
+        // setUsers(usersData);
       };
-      getCounts();
-      getUsers();
+      // getCounts();
+      // getUsers();
     }, []);
   
     return (
