@@ -94,10 +94,10 @@ const NavigationBar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/sell">Sell a Car</Link>
+            <Link to="/sell">Sell</Link>
           </li>
           <li>
-            <Link to="/buy">Buy a Car</Link>
+            <Link to="/buy">Buy</Link>
           </li>
         </ul>
         {user ? null : (
