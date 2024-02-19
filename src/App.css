@@ -53,9 +53,9 @@
   --black99: #00000099;
   --charcoal: #0e0d13;
   --red: #9d052b;
-  --blue: #7febf5;
+  --blue: #71eaf5;
   --light-red: #d90137;
-  --light-blue: #23d1e8;
+  --light-blue: #20acbf;
   --gold: #ffb92d;
   --green: #04aa6d;
   scrollbar-color: var(--white) var(--charcoal) !important;
@@ -243,7 +243,7 @@ footer {
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, var(--red), var(--light-red));
+  background: linear-gradient(90deg, var(--blue), var(--light-blue));
   color: var(--black);
   border: none;
 }
@@ -254,8 +254,8 @@ footer {
 }
 
 .btn-secondary {
-  border: 1px var(--light-red)solid;
-  color: var(--light-red);
+  border: 1px var(--light-blue)solid;
+  color: var(--light-blue);
   cursor: pointer;
 }
 
@@ -341,7 +341,7 @@ nav li {
   text-transform: uppercase !important;
   color: var(--white);
   font-weight: 600;
-  font: italic small-caps bold 16px/2 cursive;
+  /* font: italic small-caps bold 16px/2 cursive; */
 }
 
 .brand {
@@ -474,8 +474,8 @@ background-color: black !important;
 .bar {
   width: 0.4em;
   height: 4em;
-  background: linear-gradient(0deg, var(--light-red) 0%, var(--red) 50%, #0e0d13 100%);
-  filter: drop-shadow(0 0 0.5em var(--light-red));
+  background: linear-gradient(0deg, var(--light-blue) 0%, var(--blue) 50%, #0e0d13 100%);
+  filter: drop-shadow(0 0 0.5em var(--light-blue));
   margin: 0 2em;
 }
 
@@ -780,7 +780,7 @@ footer input {
 }
 
 footer hr {
-  border: 2px var(--red)solid;
+  border: 2px var(--blue)solid;
   margin: 1.5em 0;
 }
 
